@@ -1,0 +1,39 @@
+.container
+ {
+     max-width: 400px;
+       margin: 0 auto;
+      padding: 40px;
+    background-color:yellow;
+    border: 1px solid black;
+   border-radius: 5px;
+        }
+        .container h2{
+text-align:center;
+}
+.group-form {
+    margin-bottom: 15px;
+}
+.group-form label{
+display: block;
+            margin-bottom: 5px;
+        }
+        .group-form input[type="text"],
+   .group-form input[type="email"],
+   .group-form input[type="password"],
+    .group-form input[type="tel"] {
+   width: 100%;
+   padding: 10px;
+   border: 3px dashed blue;
+   border-radius: 5px;
+background-color:red;
+color:white;
+   }
+        .group-form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color:black;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        }
